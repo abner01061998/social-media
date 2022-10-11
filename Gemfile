@@ -42,6 +42,18 @@ gem "bootsnap", require: false
 # Session Management
 gem "devise"
 
+# Styling sass
+gem "sassc-rails"
+
+# Styling bootstrap
+gem 'bootstrap', '5.1.3'
+
+# Devise bootstrap
+gem 'devise-bootstrap-views'
+
+# getting data from API
+gem "stock_quote", '~> 3.0.0'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
