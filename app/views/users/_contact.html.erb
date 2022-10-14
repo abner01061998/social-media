@@ -1,0 +1,15 @@
+<%= turbo_frame_tag :body do %>
+  <h5 class="card-title"><%= @user.full_name %> 
+    <% if !current_user.can_add_friend? @user.id %> 
+      <span class="badge bg-secondary badge-sm">Friends</span>
+    <% end %>
+  </h5>
+  <p class="card-text"><%= @user.email %></p>
+  <p class="card-text">Stocks: <%= @user.stocks.count %></p>
+  <p class="card-text">Friends: <%= @user.friends.count %></p>
+  <% if current_user.can_add_friend? @user.id %>
+    <%= link_to friendships_path(user: @user.id), method: :post, data: { turbo_frame: :my_friends_list, turbo_method: :post }, class: 'btn btn-sm btn-primary' do %>
+      <%= fa_icon 'plus' %> Follow
+    <% end %>
+  <% end %>
+<% end %>

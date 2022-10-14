@@ -1,0 +1,24 @@
+<h1>User Details</h1>
+
+ <div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <%= link_to 'Contact', friend_profile_path(user: @user),class:'nav-link active', data:{turbo_frame: :body } %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Portfolio', friend_portfolio_path(@user),class:'nav-link', data:{turbo_frame: :user_stocks } %>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <%= turbo_frame_tag :body do %>
+      <%= render partial: 'contact' %>
+    <% end %>
+    <div class="container d-flex align-items-center justify-content-center">
+      <%= turbo_frame_tag :user_stocks do %>
+      <% end %>
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class='card card-header results-block mt-3'>
+  <strong>Email </strong> <%=user.email%>
+  <strong>Name</strong> <%=user.first_name%> <%=user.last_name%>
+  <% if current_user.can_add_friend? user.id %>
+    <%= link_to friendships_path(user: user.id), method: :post, data: { turbo_frame: :my_friends_list, turbo_method: :post }, class: 'btn btn-sm btn-primary' do %>
+      <%= fa_icon 'plus' %> Follow
+    <% end %>
+  <% else %>
+    <span class="badge bg-secondary badge-sm">Friends</span>
+  <% end %>
+  <%= link_to friend_profile_path(user: user.id), class: 'btn btn-sm btn-info' do %>
+    <%= fa_icon 'search' %> Profile
+  <% end %>
+</div>
