@@ -63,6 +63,9 @@ gem 'font-awesome-rails'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem 'image_processing', '~> 1.2'
 
+# Ruby doc
+gem 'rdoc'
+
 group :production do
   gem 'pg'
 end

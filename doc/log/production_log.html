@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>production.log - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/navigation.js" defer></script>
+<script src="../js/search.js" defer></script>
+<script src="../js/search_index.js" defer></script>
+<script src="../js/searcher.js" defer></script>
+<script src="../js/darkfish.js" defer></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    
+<div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+    <li><a href="../Gemfile.html">Gemfile</a>
+    <li><a href="../Gemfile_lock.html">Gemfile.lock</a>
+    <li><a href="../README_md.html">README</a>
+    <li><a href="../Rakefile.html">Rakefile</a>
+    <li><a href="../app/assets/config/manifest_js.html">manifest.js</a>
+    <li><a href="../app/assets/stylesheets/application_scss.html">application.scss</a>
+    <li><a href="../app/assets/stylesheets/custom_css.html">custom.css</a>
+    <li><a href="../app/javascript/application_js.html">application.js</a>
+    <li><a href="../app/javascript/controllers/application_js.html">application.js</a>
+    <li><a href="../app/javascript/controllers/hello_controller_js.html">hello_controller.js</a>
+    <li><a href="../app/javascript/controllers/index_js.html">index.js</a>
+    <li><a href="../bin/bundle_cmd.html">bundle.cmd</a>
+    <li><a href="../config_ru.html">config.ru</a>
+    <li><a href="../config/credentials_yml_enc.html">credentials.yml.enc</a>
+    <li><a href="../config/master_key.html">master.key</a>
+    <li><a href="../db/production_sqlite3.html">production.sqlite3</a>
+    <li><a href="../log/development_log.html">development.log</a>
+    <li><a href="../log/production_log.html">production.log</a>
+    <li><a href="../public/404_html.html">404.html</a>
+    <li><a href="../public/422_html.html">422.html</a>
+    <li><a href="../public/500_html.html">500.html</a>
+    <li><a href="../public/apple-touch-icon-precomposed_png.html">apple-touch-icon-precomposed.png</a>
+    <li><a href="../public/apple-touch-icon_png.html">apple-touch-icon.png</a>
+    <li><a href="../public/assets/actioncable-5433453f9b6619a9de91aaab2d7fc7ff183e5260c0107cbc9a1aa0c838d9a74e_js.html">actioncable-5433453f9b6619a9de91aaab2d7fc7ff183e5260c0107cbc9a1aa0c838d9a74e.js</a>
+    <li><a href="../public/assets/actioncable_esm-e01089c3ec4fe7817fa9abcad06cab6bdc387f95f0ca6aab4bf7ba7537f70690_js.html">actioncable.esm-e01089c3ec4fe7817fa9abcad06cab6bdc387f95f0ca6aab4bf7ba7537f70690.js</a>
+    <li><a href="../public/assets/actiontext-28c61f5197c204db043317a8f8826a87ab31495b741f854d307ca36122deefce_js.html">actiontext-28c61f5197c204db043317a8f8826a87ab31495b741f854d307ca36122deefce.js</a>
+    <li><a href="../public/assets/activestorage-3ab61e47dd4ee2d79db525ade1dca2ede0ea2b7371fe587e408ee37b7ade265d_js.html">activestorage-3ab61e47dd4ee2d79db525ade1dca2ede0ea2b7371fe587e408ee37b7ade265d.js</a>
+    <li><a href="../public/assets/activestorage_esm-01f58a45d77495cdfbdfcc872902a430426c4391634ec9c3da5f69fbf8418492_js.html">activestorage.esm-01f58a45d77495cdfbdfcc872902a430426c4391634ec9c3da5f69fbf8418492.js</a>
+    <li><a href="../public/assets/application-32d4b75e744a8a8e755359e6017482014dee13b0c2f0861d571e55531d39a79d_css.html">application-32d4b75e744a8a8e755359e6017482014dee13b0c2f0861d571e55531d39a79d.css</a>
+    <li><a href="../public/assets/application-3e73deab22b3cbf32eae8a405cc3f28cfe3ab81a37fecca6ddbbe46c75af5b0e_css.html">application-3e73deab22b3cbf32eae8a405cc3f28cfe3ab81a37fecca6ddbbe46c75af5b0e.css</a>
+    <li><a href="../public/assets/application-4668a63fc7682ef88af586a54008d0c129dc516b342577afb0de28e081796840_css.html">application-4668a63fc7682ef88af586a54008d0c129dc516b342577afb0de28e081796840.css</a>
+    <li><a href="../public/assets/application-7ac6076e7d9cab030797f1bfe2cf764861a60dc215f623dde8cb933ae0bf10dc_js.html">application-7ac6076e7d9cab030797f1bfe2cf764861a60dc215f623dde8cb933ae0bf10dc.js</a>
+    <li><a href="../public/assets/application-a44e181b486d978d63932a4db09338ae502d90e10c0bdd395aa839123aeea2ec_css.html">application-a44e181b486d978d63932a4db09338ae502d90e10c0bdd395aa839123aeea2ec.css</a>
+    <li><a href="../public/assets/application-ac2e01aa9a494aeeba9e1c95a30a26e3dd5b5ac439d25b67aa38832295e26c3d_css.html">application-ac2e01aa9a494aeeba9e1c95a30a26e3dd5b5ac439d25b67aa38832295e26c3d.css</a>
+    <li><a href="../public/assets/application-dc2d2d6cd177033c4b2946f0fdc563dc111e103bced6042c2b7649f314306f58_css.html">application-dc2d2d6cd177033c4b2946f0fdc563dc111e103bced6042c2b7649f314306f58.css</a>
+    <li><a href="../public/assets/bootstrap_min-20a034247d4d545a7a2d49d62ee00c40f53f825562ed9d6c9af1ad42383e67f6_js.html">bootstrap.min-20a034247d4d545a7a2d49d62ee00c40f53f825562ed9d6c9af1ad42383e67f6.js</a>
+    <li><a href="../public/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e_js.html">application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js</a>
+    <li><a href="../public/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554_js.html">hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js</a>
+    <li><a href="../public/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806_js.html">index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js</a>
+    <li><a href="../public/assets/custom-77945ec94022f825cfe7d6166e97092d87ca4f55627c8062b56cfb9f1a35f205_css.html">custom-77945ec94022f825cfe7d6166e97092d87ca4f55627c8062b56cfb9f1a35f205.css</a>
+    <li><a href="../public/assets/custom-7eba9728e51d5c26d8d1cf50340b4b3ad9251d8a5f0142ef57211377bd50fcfc_css.html">custom-7eba9728e51d5c26d8d1cf50340b4b3ad9251d8a5f0142ef57211377bd50fcfc.css</a>
+    <li><a href="../public/assets/custom-de99a0f588d04e64f8aa62da913f7225b090eb13fbfe74a7315f1715cdefec1d_css.html">custom-de99a0f588d04e64f8aa62da913f7225b090eb13fbfe74a7315f1715cdefec1d.css</a>
+    <li><a href="../public/assets/custom-e30bda1bcb7eaa86b4f7970e250dadbfd4aa17f32943e7e25ef353bd822fd884_css.html">custom-e30bda1bcb7eaa86b4f7970e250dadbfd4aa17f32943e7e25ef353bd822fd884.css</a>
+    <li><a href="../public/assets/es-module-shims-16719834c9bbcdd75f1f99da713bd0c89de488be94d4c5df594511f39cffe7c1_js.html">es-module-shims-16719834c9bbcdd75f1f99da713bd0c89de488be94d4c5df594511f39cffe7c1.js</a>
+    <li><a href="../public/assets/es-module-shims_js-32db422c5db541b7129a2ce936aed905edc2cd481748f8d67ffe84e28313158a_map.html">es-module-shims.js-32db422c5db541b7129a2ce936aed905edc2cd481748f8d67ffe84e28313158a.map</a>
+    <li><a href="../public/assets/es-module-shims_min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470_js.html">es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js</a>
+    <li><a href="../public/assets/manifest-b84bfa46a33d7f0dc4d2e7b8889486c9a957a5e40713d58f54be71b66954a1ff_js.html">manifest-b84bfa46a33d7f0dc4d2e7b8889486c9a957a5e40713d58f54be71b66954a1ff.js</a>
+    <li><a href="../public/assets/popper-15792033e209365e7b75c100dae2b69cba31b26b18b289383d22eb67639aad75_js.html">popper-15792033e209365e7b75c100dae2b69cba31b26b18b289383d22eb67639aad75.js</a>
+    <li><a href="../public/assets/stimulus-2e76632599c700da6e187ce7b15eea7c0eace0e09f25d19e55e3b1f7c515397c_js.html">stimulus-2e76632599c700da6e187ce7b15eea7c0eace0e09f25d19e55e3b1f7c515397c.js</a>
+    <li><a href="../public/assets/stimulus-autoloader-c584942b568ba74879da31c7c3d51366737bacaf6fbae659383c0a5653685693_js.html">stimulus-autoloader-c584942b568ba74879da31c7c3d51366737bacaf6fbae659383c0a5653685693.js</a>
+    <li><a href="../public/assets/stimulus-importmap-autoloader-db2076c783bf2dbee1226e2add52fef290b5d31b5bcd1edd999ac8a6dd31c44a_js.html">stimulus-importmap-autoloader-db2076c783bf2dbee1226e2add52fef290b5d31b5bcd1edd999ac8a6dd31c44a.js</a>
+    <li><a href="../public/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa_js.html">stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js</a>
+    <li><a href="../public/assets/stimulus_min-b8a9738499c7a8362910cd545375417370d72a9776fb4e766df7671484e2beb7_js.html">stimulus.min-b8a9738499c7a8362910cd545375417370d72a9776fb4e766df7671484e2beb7.js</a>
+    <li><a href="../public/assets/stimulus_min_js-8d1a076cbda7e5ed0992e208db54c62a8de8b1f9694828e1a601fbccd9291649_map.html">stimulus.min.js-8d1a076cbda7e5ed0992e208db54c62a8de8b1f9694828e1a601fbccd9291649.map</a>
+    <li><a href="../public/assets/trix-1563ff9c10f74e143b3ded40a8458497eaf2f87a648a5cbbfebdb7dec3447a5e_js.html">trix-1563ff9c10f74e143b3ded40a8458497eaf2f87a648a5cbbfebdb7dec3447a5e.js</a>
+    <li><a href="../public/assets/trix-fe178d6f8c056d8e63aecb6557bc65676897f43e4aee3e68584437841a99fc23_css.html">trix-fe178d6f8c056d8e63aecb6557bc65676897f43e4aee3e68584437841a99fc23.css</a>
+    <li><a href="../public/assets/turbo-118a59d5569d8a8b343ee3cd7f2c39b6b5fa5f236368b332e2db7bdad59d1ca9_js.html">turbo-118a59d5569d8a8b343ee3cd7f2c39b6b5fa5f236368b332e2db7bdad59d1ca9.js</a>
+    <li><a href="../public/assets/turbo_min-3b666ce240bde65e66d795553a062443a3b139e38646fe31740d354a41653fcc_js.html">turbo.min-3b666ce240bde65e66d795553a062443a3b139e38646fe31740d354a41653fcc.js</a>
+    <li><a href="../public/assets/turbo_min_js-c3141c67d707e81f67affd6a77f1657e298d5cb8aac6628e892669905b33786e_map.html">turbo.min.js-c3141c67d707e81f67affd6a77f1657e298d5cb8aac6628e892669905b33786e.map</a>
+    <li><a href="../public/favicon_ico.html">favicon.ico</a>
+    <li><a href="../public/robots_txt.html">robots</a>
+    <li><a href="../tmp/development_secret_txt.html">development_secret</a>
+    <li><a href="../tmp/pids/server_pid.html">server.pid</a>
+    <li><a href="../tmp/restart_txt.html">restart</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page log/production.log">
+
+<p>W, [2022-10-14T15:59:09.664623 #10824]  WARN – : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting “config.active_record.sqlite3_production_warning=false”. I, [2022-10-14T15:59:16.441703 #10824]  INFO – : [4cf7b726-fed3-4360-8f15-e7fa6e3e695e] Started GET “/users/edit” for 127.0.0.1 at 2022-10-14 15:59:16 -0600 I, [2022-10-14T15:59:16.444613 #10824]  INFO – : [4cf7b726-fed3-4360-8f15-e7fa6e3e695e] Processing by Devise::RegistrationsController#edit as HTML I, [2022-10-14T15:59:16.448688 #10824]  INFO – : [4cf7b726-fed3-4360-8f15-e7fa6e3e695e] Completed 401 Unauthorized in 4ms (Allocations: 1207) I, [2022-10-14T15:59:16.471243 #10824]  INFO – : [42b5edf8-859a-408f-9dc9-bec89d4312cb] Started GET “/users/sign_in” for 127.0.0.1 at 2022-10-14 15:59:16 -0600 I, [2022-10-14T15:59:16.472122 #10824]  INFO – : [42b5edf8-859a-408f-9dc9-bec89d4312cb] Processing by Devise::SessionsController#new as HTML I, [2022-10-14T15:59:16.477927 #10824]  INFO – : [42b5edf8-859a-408f-9dc9-bec89d4312cb] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.8ms | Allocations: 1851) F, [2022-10-14T15:59:16.478795 #10824] FATAL – : [42b5edf8-859a-408f-9dc9-bec89d4312cb]</p>
+<dl class="rdoc-list label-list"><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>ActiveRecord::StatementInvalid (Could not find table ‘users’):</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/sqlite3_adapter.rb:387:in ‘table_structure’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/abstract/schema_statements.rb:116:in ‘columns’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/schema_cache.rb:117:in ‘block in columns’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/schema_cache.rb:116:in ‘fetch’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/schema_cache.rb:116:in ‘columns’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/schema_cache.rb:125:in ‘block in columns_hash’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/schema_cache.rb:124:in ‘fetch’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/connection_adapters/schema_cache.rb:124:in ‘columns_hash’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/model_schema.rb:580:in ‘load_schema!’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/attributes.rb:264:in ‘load_schema!’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/encryption/encryptable_record.rb:122:in ‘load_schema!’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/model_schema.rb:566:in ‘block in load_schema’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/model_schema.rb:563:in ‘synchronize’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/model_schema.rb:563:in ‘load_schema’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/model_schema.rb:429:in ‘attribute_types’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/attribute_methods.rb:187:in ‘_has_attribute?’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/inheritance.rb:60:in ‘new’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>devise (4.8.1) app/controllers/devise/sessions_controller.rb:11:in ‘new’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in ‘send_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/abstract_controller/base.rb:215:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in ‘block in process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/callbacks.rb:118:in ‘block in run_callbacks’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actiontext (7.0.4) lib/action_text/rendering.rb:20:in ‘with_renderer’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actiontext (7.0.4) lib/action_text/engine.rb:69:in ‘block (4 levels) in &lt;class:Engine&gt;’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/callbacks.rb:127:in ‘instance_exec’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/callbacks.rb:127:in ‘block in run_callbacks’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/callbacks.rb:138:in ‘run_callbacks’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in ‘block in process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/notifications.rb:206:in ‘block in instrument’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in ‘instrument’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/notifications.rb:206:in ‘instrument’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in ‘process_action’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/abstract_controller/base.rb:151:in ‘process’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionview (7.0.4) lib/action_view/rendering.rb:39:in ‘process’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal.rb:188:in ‘dispatch’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_controller/metal.rb:251:in ‘dispatch’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in ‘dispatch’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in ‘serve’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:18:in ‘block in &lt;class:Constraints&gt;’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in ‘serve’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in ‘block in serve’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in ‘each’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in ‘serve’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>warden (1.2.9) lib/warden/manager.rb:36:in ‘block in call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>warden (1.2.9) lib/warden/manager.rb:34:in ‘catch’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>warden (1.2.9) lib/warden/manager.rb:34:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/etag.rb:27:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/conditional_get.rb:27:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/head.rb:12:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/session/abstract/id.rb:266:in ‘context’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/session/abstract/id.rb:260:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in ‘block in call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/callbacks.rb:99:in ‘run_callbacks’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>railties (7.0.4) lib/rails/rack/logger.rb:40:in ‘call_app’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>railties (7.0.4) lib/rails/rack/logger.rb:25:in ‘block in call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in ‘block in tagged’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in ‘tagged’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in ‘tagged’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>railties (7.0.4) lib/rails/rack/logger.rb:25:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/method_override.rb:24:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/runtime.rb:22:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>rack (2.2.4) lib/rack/sendfile.rb:110:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:131:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>railties (7.0.4) lib/rails/engine.rb:530:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>puma (5.6.5) lib/puma/configuration.rb:252:in ‘call’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>puma (5.6.5) lib/puma/request.rb:77:in ‘block in handle_request’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>puma (5.6.5) lib/puma/thread_pool.rb:340:in ‘with_force_shutdown’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>puma (5.6.5) lib/puma/request.rb:76:in ‘handle_request’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>puma (5.6.5) lib/puma/server.rb:443:in ‘process_client’</p>
+</dd><dt>42b5edf8-859a-408f-9dc9-bec89d4312cb
+<dd>
+<p>puma (5.6.5) lib/puma/thread_pool.rb:147:in ‘block in spawn_thread’</p>
+</dd></dl>
+
+<p>W, [2022-10-14T16:00:26.179044 #4776]  WARN – : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting “config.active_record.sqlite3_production_warning=false”. I, [2022-10-14T16:00:27.056820 #4776]  INFO – : [1af0b105-4870-4daf-8736-118fe869a2f5] Started GET “/users/sign_in” for 127.0.0.1 at 2022-10-14 16:00:27 -0600 I, [2022-10-14T16:00:27.059560 #4776]  INFO – : [1af0b105-4870-4daf-8736-118fe869a2f5] Processing by Devise::SessionsController#new as HTML I, [2022-10-14T16:00:27.091216 #4776]  INFO – : [1af0b105-4870-4daf-8736-118fe869a2f5]   Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3706) I, [2022-10-14T16:00:27.097126 #4776]  INFO – : [1af0b105-4870-4daf-8736-118fe869a2f5]   Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7122) I, [2022-10-14T16:00:27.097557 #4776]  INFO – : [1af0b105-4870-4daf-8736-118fe869a2f5] Completed 200 OK in 38ms (Views: 21.9ms | ActiveRecord: 1.3ms | Allocations: 16706) I, [2022-10-14T16:00:28.817930 #4776]  INFO – : [61bca8d6-ff84-4dc8-ac27-89a6f2c8b401] Started POST “/users/sign_in” for 127.0.0.1 at 2022-10-14 16:00:28 -0600 I, [2022-10-14T16:00:28.818725 #4776]  INFO – : [61bca8d6-ff84-4dc8-ac27-89a6f2c8b401] Processing by Devise::SessionsController#create as TURBO_STREAM I, [2022-10-14T16:00:28.818905 #4776]  INFO – : [61bca8d6-ff84-4dc8-ac27-89a6f2c8b401]   Parameters: {“<a href="FILTERED">authenticity_token”=>“</a>”, “user”=&gt;{“email”=&gt;“abnerdc2@gmail.com”, “<a href="FILTERED">password”=>“</a>”, “remember_me”=&gt;“0”}, “commit”=&gt;“Log in”} I, [2022-10-14T16:00:29.037939 #4776]  INFO – : [61bca8d6-ff84-4dc8-ac27-89a6f2c8b401] Redirected to <a href="http://localhost:3000/users/edit">localhost:3000/users/edit</a> I, [2022-10-14T16:00:29.038230 #4776]  INFO – : [61bca8d6-ff84-4dc8-ac27-89a6f2c8b401] Completed 302 Found in 219ms (ActiveRecord: 0.3ms | Allocations: 3418) I, [2022-10-14T16:00:29.064563 #4776]  INFO – : [42b3860c-82d9-4aa9-9f61-610334d01a8b] Started GET “/users/edit” for 127.0.0.1 at 2022-10-14 16:00:29 -0600 I, [2022-10-14T16:00:29.065383 #4776]  INFO – : [42b3860c-82d9-4aa9-9f61-610334d01a8b] Processing by Devise::RegistrationsController#edit as TURBO_STREAM I, [2022-10-14T16:00:29.074523 #4776]  INFO – : [42b3860c-82d9-4aa9-9f61-610334d01a8b]   Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 3408) I, [2022-10-14T16:00:29.076027 #4776]  INFO – : [42b3860c-82d9-4aa9-9f61-610334d01a8b]   Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 4734) I, [2022-10-14T16:00:29.076399 #4776]  INFO – : [42b3860c-82d9-4aa9-9f61-610334d01a8b] Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms | Allocations: 6272) I, [2022-10-14T16:00:30.875812 #4776]  INFO – : [0f3d30e8-56cb-4fc3-8ca6-5087fd51ee9d] Started GET “/my_portfolio” for 127.0.0.1 at 2022-10-14 16:00:30 -0600 I, [2022-10-14T16:00:30.877026 #4776]  INFO – : [0f3d30e8-56cb-4fc3-8ca6-5087fd51ee9d] Processing by <a href="../UsersController.html#method-i-my_portfolio"><code>UsersController#my_portfolio</code></a> as HTML I, [2022-10-14T16:00:30.894442 #4776]  INFO – : [0f3d30e8-56cb-4fc3-8ca6-5087fd51ee9d]   Rendered users/my_portfolio.html.erb within layouts/application (Duration: 13.4ms | Allocations: 8742) I, [2022-10-14T16:00:30.895672 #4776]  INFO – : [0f3d30e8-56cb-4fc3-8ca6-5087fd51ee9d]   Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 9956) I, [2022-10-14T16:00:30.896068 #4776]  INFO – : [0f3d30e8-56cb-4fc3-8ca6-5087fd51ee9d] Completed 200 OK in 19ms (Views: 13.6ms | ActiveRecord: 2.2ms | Allocations: 11670) I, [2022-10-14T16:00:32.902094 #4776]  INFO – : [f75d1c67-ba21-4c1c-abc3-14ecc6645870] Started GET “/search_stock?stock=MSFT&amp;button=” for 127.0.0.1 at 2022-10-14 16:00:32 -0600 I, [2022-10-14T16:00:32.902924 #4776]  INFO – : [f75d1c67-ba21-4c1c-abc3-14ecc6645870] Processing by <a href="../StocksController.html#method-i-search_stock"><code>StocksController#search_stock</code></a> as HTML I, [2022-10-14T16:00:32.903045 #4776]  INFO – : [f75d1c67-ba21-4c1c-abc3-14ecc6645870]   Parameters: {“stock”=&gt;“MSFT”, “button”=&gt;“”} I, [2022-10-14T16:00:33.343833 #4776]  INFO – : [f75d1c67-ba21-4c1c-abc3-14ecc6645870] Completed 200 OK in 441ms (Views: 3.7ms | ActiveRecord: 0.7ms | Allocations: 9088) I, [2022-10-14T17:21:40.861863 #4776]  INFO – : [4e64826f-7b9a-4526-a782-d639ee23057d] Started GET “/my_portfolio” for 127.0.0.1 at 2022-10-14 17:21:40 -0600 I, [2022-10-14T17:21:40.865750 #4776]  INFO – : [4e64826f-7b9a-4526-a782-d639ee23057d] Processing by <a href="../UsersController.html#method-i-my_portfolio"><code>UsersController#my_portfolio</code></a> as HTML I, [2022-10-14T17:21:40.887596 #4776]  INFO – : [4e64826f-7b9a-4526-a782-d639ee23057d]   Rendered users/my_portfolio.html.erb within layouts/application (Duration: 17.0ms | Allocations: 3165) I, [2022-10-14T17:21:40.890654 #4776]  INFO – : [4e64826f-7b9a-4526-a782-d639ee23057d]   Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4274) I, [2022-10-14T17:21:40.891132 #4776]  INFO – : [4e64826f-7b9a-4526-a782-d639ee23057d] Completed 200 OK in 25ms (Views: 19.5ms | ActiveRecord: 1.7ms | Allocations: 5225)</p>
+
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.4.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
